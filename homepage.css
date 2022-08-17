@@ -1,0 +1,72 @@
+body{
+  background-color: #212529;
+  margin: auto;
+  
+}
+
+.rounded-pill{
+  margin-left: 10px;
+}
+.btn-subscribe{
+  background: var(--BRAND_BLUE);
+  text-align: center;
+  text-transform: uppercase;
+  height: 29px;
+  width: 115px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  padding: 10px;
+  font-size: 10px;
+  margin: 12px 0 10px 25px;
+ 
+}
+
+.btn-subscribe:hover{
+opacity: 0.6;
+}
+.btn-subscribe:active{
+opacity: 0.4;
+}
+
+
+.row{
+  background-color: #212529;
+}
+#first{
+  height: 97px;
+  
+}
+#second{
+  height: 6.4cm;
+}
+#height{
+  height: 60px;
+}
+@media screen and (min-width:992px) {
+  .dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+    }
+    .dropdown .dropdown-menu{
+      display: none;
+    }
+    .dropdown:hover .dropdown-toggle::after{
+      border-top: 0;
+      border-bottom: 3em solid;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      
