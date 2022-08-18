@@ -59,11 +59,10 @@ opacity: 0.4;
  }
 
 .footer{
-  padding-left: 60px;
-  padding-right: 60px;
+ 
   padding-top: 70px;
   background-color: black;
- height: 5cm;
+ height: 8cm;
 }
 
 .details{
@@ -83,6 +82,10 @@ opacity: 0.4;
 }
 
 @media screen and (max-width:576px) {
+  .footer{
+
+    height: 10cm;
+  }
   .connect{
     padding-left: 10px;
   }
