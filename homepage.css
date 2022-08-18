@@ -1,7 +1,5 @@
 body{
-  background-color: #212529;
-  margin: auto;
-  
+  background:black;
 }
 
 .rounded-pill{
@@ -29,10 +27,17 @@ opacity: 0.6;
 opacity: 0.4;
 }
 
-
-.row{
-  background-color: #212529;
+.margin{
+  background: black;
+  height: 80px;
+  width: 100%;
 }
+
+.marg2{
+  background: black;
+  margin-top: 10px;
+}
+
 #first{
   height: 97px;
   
@@ -43,20 +48,74 @@ opacity: 0.4;
 #height{
   height: 60px;
 }
-@media screen and (min-width:992px) {
-  .dropdown:hover .dropdown-menu{
-    display: block;
-    margin-top: 0;
-    }
-    .dropdown .dropdown-menu{
-      display: none;
-    }
-    .dropdown:hover .dropdown-toggle::after{
-      border-top: 0;
-      border-bottom: 3em solid;
-    }
+
+.marg{
+  margin-right: 10px;
+  color: white;
+ }
+
+ h6{
+  color: white;
+ }
+
+.footer{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 70px;
+  background-color: black;
+ height: 5cm;
 }
 
+.details{
+  padding-left: 20px;
+  font-size: 15px;
+}
+.marg1{
+ margin-top: 14px;
+}
+
+.connect{
+  padding-left: 60px;
+}
+
+.disney{
+  padding-right: 60px;
+}
+
+@media screen and (max-width:576px) {
+  .connect{
+    padding-left: 10px;
+  }
+  .disney{
+    float: right;
+    padding-right: 10px;
+    
+  }
+}
+
+
+@media screen and (max-width:800px) {
+  .connect{
+    padding-left: 30px;
+  }
+  .disney{
+    float: right;
+    padding-right: 30px;
+    
+  }
+}
+ 
+
+@media screen and (max-width:992px) {
+  .connect{
+    padding-left: 10px;
+  }
+  .disney{
+    float: right;
+    padding-right: 10px;
+    
+  }
+}
 
 
 
