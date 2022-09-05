@@ -1,5 +1,31 @@
 body{
-  background:black;
+  --dark:rgb(233, 232, 232);
+--whitec:black;
+--grey:rgb(210, 210, 210);
+--blue:rgb(4, 4, 31);
+--BRAND_BLUE:rgb(43, 43, 214);
+background-color:var(--dark);
+color:var(--whitec);
+}
+@import "bootstrap";
+
+.mylight{
+--dark:black;
+--whitec:white;
+--grey:rgb(4, 4, 31);
+} 
+.post{
+  height: 57px;
+  width: 60px;
+float: left;
+}
+.left{
+  float: left;
+}
+
+#height{
+  background-color:var(--blue);
+  height: 66px;
 }
 
 .rounded-pill{
@@ -7,16 +33,13 @@ body{
 }
 .btn-subscribe{
   background: var(--BRAND_BLUE);
-  text-align: center;
+  text-align: center!important;
   text-transform: uppercase;
   height: 29px;
   width: 115px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: opacity 0.15s;
-  padding: 10px;
-  font-size: 10px;
-  margin: 12px 0 10px 25px;
+  padding: 3px!important;
+  font-size: 15px!important;
+  margin: 0 -20px 0 0;
  
 }
 
@@ -27,16 +50,61 @@ opacity: 0.6;
 opacity: 0.4;
 }
 
+/*Toggle */
+input {
+  -webkit-appearance: none;
+  position: relative;
+  width: 46px;
+  height: 25px;
+  background-image: url(https://i.postimg.cc/857jHw2q/Screenshot-2020-04-16-at-1-07-06-PM.png);
+  background-size: cover;
+  border-radius: 50px;
+  outline: none;
+  
+}
+
+input:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 26px;
+  background-color: navy;
+  border-radius: 50px;
+}
+
+input:checked {
+  background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png);
+  
+
+}
+
+input:checked:before {
+  transform: translate(100%);
+}
+
+/* end*/
 .margin{
-  background: black;
+  background:var(--dark);
   height: 80px;
   width: 100%;
 }
 
-.marg2{
-  background: black;
-  margin-top: 10px;
+.cf{
+ background: var(--grey);
 }
+
+.c{
+  background:var(--dark);
+}
+
+.row1{
+  background-color:var(--dark);
+  color:var(--whitec);  
+  
+}
+
 
 #first{
   height: 97px;
@@ -45,24 +113,24 @@ opacity: 0.4;
 #second{
   height: 6.4cm;
 }
-#height{
-  height: 60px;
-}
+
 
 .marg{
   margin-right: 10px;
-  color: white;
+  color:var(--whitec);
+  font-weight: bold;
  }
 
  h6{
-  color: white;
+  color:var(--whitec);
  }
 
 .footer{
- 
+  padding-left: 60px;
+  padding-right: 60px;
   padding-top: 70px;
-  background-color: black;
- height: 10cm;
+  background-color:var(--dark);
+ height: 5cm;
 }
 
 .details{
@@ -82,10 +150,24 @@ opacity: 0.4;
 }
 
 @media screen and (max-width:576px) {
-  .footer{
-
-    height: 10cm;
+  .btn-subscribe{
+    height:21px;
+    width: 93px;
+    font-size: 12px!important;
+    padding: 1px!important;
+    
   }
+  input {
+  width: 34px;
+  border-radius:15px;
+  
+  }
+
+  input:before { 
+    width: 24px;
+    border-radius:17px;
+  }
+
   .connect{
     padding-left: 10px;
   }
@@ -119,7 +201,6 @@ opacity: 0.4;
     
   }
 }
-
 
 
 
