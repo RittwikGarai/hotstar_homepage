@@ -1,3 +1,4 @@
+
 body{
   --dark:rgb(233, 232, 232);
   --foot:rgb(208, 202, 202);
@@ -80,14 +81,65 @@ input:checked:before {
 }
 
 /* end*/
+
+/*Coupon Starts*/
+#coupon{
+  height:14.4cm;
+  width:27.5cm;
+  background-color:rgb(4, 4, 31);
+  position:absolute;
+  margin:6% 1% 1% 9%;
+  z-index: 10;
+  display: none;
+  border-radius: 0.3cm;
+}
+
+#coupon>img{
+  width:26cm;
+  height: 11cm;
+  border-radius: 0.3cm;
+  margin-top: 2px;
+  margin-left: 27px;
+}
+
+#closebutton{
+  cursor: pointer;
+  border-radius: 7px;
+  
+  margin-left: 26.77cm;
+  font-weight: bold;
+  
+  color: black;
+}
+
+#closebutton:hover{
+  transform:scale(1.1)
+}
+
+p2{
+  margin-left: 32px;
+  color: white;
+}
+
+p1{
+  color: blue;
+  font-size:large;
+  font-weight: bold;
+  margin-left: 32px;
+  padding-top: 3px;
+}
+
+/*Coupon Ends*/
+
 .margin{
   background:var(--dark);
   height: 66px;
   width: 100%;
 }
 
-.cf{
-  background-color:var(--dark);
+#cf{
+  background:var(--dark);
+ 
 }
 
 .c{
@@ -120,7 +172,7 @@ input:checked:before {
   color:var(--whitec);
  }
 
-.footer{
+ #footer{
   padding-top: 70px;
   background-color:var(--foot);
  height: 5cm;
@@ -197,13 +249,3 @@ input:checked:before {
 }
 
 
-
-
-
-
-
-
-
-
-
-                      
