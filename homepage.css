@@ -1,5 +1,6 @@
 body{
   --dark:rgb(233, 232, 232);
+  --foot:rgb(208, 202, 202);
 --whitec:black;
 --grey:rgb(210, 210, 210);
 --blue:rgb(4, 4, 31);
@@ -11,17 +12,11 @@ color:var(--whitec);
 
 .mylight{
 --dark:black;
+--foot:black;
 --whitec:white;
 --grey:rgb(4, 4, 31);
 } 
-.post{
-  height: 57px;
-  width: 60px;
-float: left;
-}
-.left{
-  float: left;
-}
+
 
 #height{
   background-color:var(--blue);
@@ -87,12 +82,12 @@ input:checked:before {
 /* end*/
 .margin{
   background:var(--dark);
-  height: 80px;
+  height: 66px;
   width: 100%;
 }
 
 .cf{
- background: var(--grey);
+  background-color:var(--dark);
 }
 
 .c{
@@ -126,14 +121,13 @@ input:checked:before {
  }
 
 .footer{
-  padding-left: 60px;
-  padding-right: 60px;
   padding-top: 70px;
-  background-color:var(--dark);
+  background-color:var(--foot);
  height: 5cm;
 }
 
 .details{
+  background-color:var(--foot);
   padding-left: 20px;
   font-size: 15px;
 }
