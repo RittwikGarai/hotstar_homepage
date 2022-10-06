@@ -7,7 +7,7 @@
     "product_type":"Drama",
     "product_image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BNTY2NDIwNWEtODRmNy00MTAxLTkwYjktY2UyZjlhNGY2YTI2XkEyXkFqcGdeQXVyMTA2ODkwNzM5._V1_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt9052870%2F&tbnid=JPZycC_GpWjdKM&vet=12ahUKEwimz9Tq-cr6AhWYjtgFHW_1CKwQMygCegUIARC-AQ..i&docid=7Fb_zDEye5FYOM&w=1277&h=1702&q=CHHICHHORE&ved=2ahUKEwimz9Tq-cr6AhWYjtgFHW_1CKwQMygCegUIARC-AQ",
     "product_url":"https://www.youtube.com/watch?v=tsxemFX0a7k",
-    "language":"Hindi",
+    "language":"Hindi"
   },
   {
     "type_id":4,
@@ -17,7 +17,7 @@
     "product_type":"Biopic",
     "product_image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BZjAzZjZiMmQtMDZmOC00NjVmLTkyNTItOGI2Mzg4NTBhZTA1XkEyXkFqcGdeQXVyODE5NzE3OTE%40._V1_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt4169250%2F&tbnid=bjCsIBgvQq6ZkM&vet=12ahUKEwiUuYX6-cr6AhVk7nMBHU3xA_4QMygAegUIARDlAQ..i&docid=FaRS4vtAa__W-M&w=2076&h=3000&q=M.S.Dhoni%20The%20Untold%20Story&ved=2ahUKEwiUuYX6-cr6AhVk7nMBHU3xA_4QMygAegUIARDlAQ",
     "product_url":"https://www.youtube.com/watch?v=6L6XqWoS8tw",
-    "language":"Hindi",
+    "language":"Hindi"
   },
   {
     "type_id":4,
@@ -27,7 +27,7 @@
     "product_type":"Romance",
     "product_image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg1.hotstarext.com%2Fimage%2Fupload%2Ff_auto%2Ct_vl%2Fsources%2Fr1%2Fcms%2Fprod%2F701%2F600701-v&imgrefurl=https%3A%2F%2Fwww.hotstar.com%2Fin%2Fmovies%2Farjun-reddy%2F1260014808%2Fwatch&tbnid=xa8gSYFpg97mUM&vet=12ahUKEwi85PiF-sr6AhV8i9gFHYrIAP0QMygAegUIARDhAQ..i&docid=NfNWu3Pn1zLGnM&w=390&h=518&itg=1&q=ARJUN%20REDDY&ved=2ahUKEwi85PiF-sr6AhV8i9gFHYrIAP0QMygAegUIARDhAQ",
     "product_url":"https://www.youtube.com/watch?v=aozErj9NqeE",
-    "language":"Hindi",
+    "language":"Hindi"
   },
   {
     "type_id":4,
@@ -37,7 +37,7 @@
     "product_type":"Biopic",
     "product_image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F2%2F29%2FSuper_30_The_Film.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSuper_30_(film)&tbnid=QzHxAtEeJ9ZF-M&vet=12ahUKEwjA5qSS-sr6AhUhjtgFHcx5DEMQMygAegUIARDiAQ..i&docid=wcHgpdqNJP7eFM&w=263&h=351&q=Super%2030&ved=2ahUKEwjA5qSS-sr6AhUhjtgFHcx5DEMQMygAegUIARDiAQ",
     "product_url":"https://www.youtube.com/watch?v=QpvEWVVnICE",
-    "language":"Hindi",
+    "language":"Hindi"
   },
   {
     "type_id":4,
@@ -47,7 +47,7 @@
     "product_type":["Horror","Science Fiction"],
     "product_image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F811TNy-MPcL._RI_.jpg&imgrefurl=https%3A%2F%2Fwww.amazon.com%2FCreature-English-Subtitled-Bipasha-Basu%2Fdp%2FB00U0K0N1Q&tbnid=cGmhQnQfkaQ1kM&vet=12ahUKEwifj5Cd-sr6AhVoMbcAHQp-AdYQMygDegUIARDrAQ..i&docid=mtiM9EsUF2lLUM&w=1200&h=1600&q=CREATURE%203D&ved=2ahUKEwifj5Cd-sr6AhVoMbcAHQp-AdYQMygDegUIARDrAQ",
     "product_url":"https://www.youtube.com/watch?v=kqER_Qt2_2g",
-    "language":"Hindi",
+    "language":"Hindi"
   },
   {
     "type_id":4,
@@ -57,6 +57,6 @@
     "product_type":"Romance",
     "product_image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fe%2Fea%2FHero-2015-Poster.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHero_(2015_Hindi_film)&tbnid=JiqhkuwQ13-91M&vet=12ahUKEwis4L7K48r6AhWp9XMBHQ6JAIwQMygAegUIARDjAQ..i&docid=7iehISMMiePk6M&w=250&h=363&q=hero%20movie&ved=2ahUKEwis4L7K48r6AhWp9XMBHQ6JAIwQMygAegUIARDjAQ",
     "product_url":"https://www.youtube.com/watch?v=6k3wapAOu-M",
-    "language":"Hindi",
+    "language":"Hindi"
   }
 ]
